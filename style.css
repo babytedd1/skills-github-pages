@@ -1,21 +1,66 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: #fff9f9;
   font-family: 'Arial', sans-serif;
   text-align: center;
   color: #726565;
+  margin: 0;
 }
 
+#Myhead{
+  
+}
+
+
 h1 {
-  color: #ff9dbb;
-  font-size: 16px;
+  color: #66493c;
+  font-size: 2.2em;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  margin-top: 0px;
+  background: #ffa9b8;
+  color: #f1f1f1;
 }
 
 p {
-  font-size: 16px;
-  color: #666;
+  font-size: 1.2em;
+  color: #4e4d4e;
 }
 
 hr.new1 {
   border-top: 1px solid pink;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+  height: 18px;
+}
+
+/* 背景（トラック）部分 */
+::-webkit-scrollbar-track {
+  background: #fff1f6; /* ピンクがかった白 */
+  border-radius: 10px;
+}
+
+/* つまみ（サム）部分 */
+::-webkit-scrollbar-thumb {
+  background: #f093a3; /* ライトピンク */
+  border-radius: 10px;
+  border: 2px solid #ffe5ee; /* 周りの余白風にする */
+}
+
+/* ホバー時 */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff979e; /* 濃いめピンク */
 }
