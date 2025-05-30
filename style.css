@@ -14,10 +14,6 @@ body {
   margin: 0;
 }
 
-#Myhead{
-  
-}
-
 
 h1 {
   color: #66493c;
@@ -37,6 +33,21 @@ p {
   font-size: 1.2em;
   color: #4e4d4e;
 }
+
+.header h1 {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 
 hr.new1 {
   border-top: 1px solid pink;
