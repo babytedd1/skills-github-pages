@@ -156,7 +156,7 @@ hr.new1 {
   max-width: 300px;
   position: relative;
   transition: transform 0.2s ease;
-  margin:  10px 0 0 10px;
+  margin:  10px 0 0 1px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
