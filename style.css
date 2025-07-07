@@ -103,9 +103,11 @@ font-weight: bold;
 .highlight {
   background: #ffff99; 
   padding: 0.2em 0.4em;
-  border-radius: 0.2em;
+  border-radius: 25%;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
 }
 
 hr.new1 {
