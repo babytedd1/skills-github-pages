@@ -183,7 +183,14 @@ hr.new1 {
   font-weight: bold;
   color: #e60039;
 }
-.listin {
+
+.listn {
+
+  font-size: 25px;
+  color:#250003;
+  font-weight: bold;
+}
+.favo {
 
   color: rgb(52, 89, 145);
   font-size: 25px;
