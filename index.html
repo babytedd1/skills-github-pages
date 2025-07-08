@@ -2,26 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="test.css">
  <link rel="icon" href="03icon.png" type="image/png">
   <title>Babyteddi World</title>
 </head>
 <body>
   <div class="header">
-  <h1>💛 Erbjudande i vecka! <span class="red-text">ICA</span> 💛</h1>
+  <h1>💛 Ejbjudande i vecka! 💛  </h1>     
   <img src="03icon.png" alt ="bearicon" width="64px" height="64px">
    <div class="flower-text">
   <img src="01flower.png" class="icon">
-  <p>spara pengar <span class="highlight">7/7 - 3/8</span> 2025</p>
+  <p>spara pengar <span class="highlight">JULI</span> 2025</p>
   <img src="01flower.png" class="icon">
 </div>
 
-  </div>
-  
-  
+  </div><p>.</p>
   <main style="min-height: 70vh;">
-
-<div class="product-grid">
+  <div class="tab-buttons">
+  <button onclick="showTab('ica')"> <span class="red-text">ICA</span></button>   
+  <button onclick="showTab('coop')"> <span class="green-text">COOP</span></button>
+  <button onclick="showTab('rusta')"><span class="rusta">RUSTA</span></button>
+</div>
+<p>.</p>
+<div id="ica" class="tab-content active"><p><span class="highlight">ICA . AKTUELLA PRISER . 7/7-3/8.</span></p>           
+  <div class="product-grid">
+  
   <div class="product-card">
     <a href="https://handlaprivatkund.ica.se/stores/1003604/products/avfallsp%C3%A5se-extra-stor-40l-20p-ica/2060124">
       <img src="i01.png" alt="bags" width="260px" height="200px">
@@ -102,7 +107,8 @@
 (18,60 kr/l)</p>
     <p class="priceboy">13,95 kr</p>
 </div>
-  <div class="product-card blue-card">
+
+<div class="product-card blue-card">
     <a href="https://handlaprivatkund.ica.se/stores/1003604/products/hush%C3%A5llspapper-4-p-milj%C3%B6m%C3%A4rkt-ica-basic/1410854">
       <img src="i13.png" alt="hushållspapper" width="260px" height="200px">
     </a>
@@ -110,6 +116,7 @@
     <p>0.611kg (35,92 kr/kg)</p>
     <p class="priceboy">21,95 kr</p>
 </div>
+
 <div class="product-card blue-card">
     <a href="https://handlaprivatkund.ica.se/stores/1003604/products/stilldrink-reload-1-15l-vitamin-well/2141921">
       <img src="i11.png" alt="vitaminwell" width="260px" height="200px">
@@ -128,7 +135,7 @@
     <p class="priceboy">15,50 kr</p>
 </div>
 
-  <div class="product-card blue-card">
+<div class="product-card blue-card">
     <a href="https://handlaprivatkund.ica.se/stores/1003604/products/rostbiff-100g-ica/1422153">
       <img src="y2.png" alt="Rostbiff" width="260px" height="200px">
     </a>
@@ -137,20 +144,15 @@
     <p class="priceboy">33.95kr</p>
 </div>
 
-
-
-  
   </div>
 
-<section>
-  <hr class="divider">
-  <h1>💛 Erbjudande i vecka! <span class="green-text">COOP</span> 💛</h1>
-<p></p></section>
+</div>
 
-<div class="product-grid">
+<div id="coop" class="tab-content"><p><span class="highlight">COOP . AKTUELLA PRISER . 7/7–13/7.</span></p>                   
+  <div class="product-grid">
     <div class="product-card">
     <a href="https://www.coop.se/handla/varor/dryck/vatten/kolsyrat-smaksatt/kolsyrat-vatten-citron-7310401000053/">
-      <img src="c1.png" alt="loka" width="260px" height="200px">
+      <img src="c1.png" alt="loka" width="280px" height="200px">
     </a>
     <h3>Kolsyrat vatten Citron</h3>
     <p class="pricei">2
@@ -202,14 +204,62 @@ Ord. pris 140,40 kr/st. Ord. jfr pris 156 kr/kg. Erbj. jfr pris 99 kr/kg.</p></d
 Ord. pris 59,95 kr/st.
 Ord. jfr pris 119,90 kr/kg.
 Erbj. jfr pris 90 kr/kg.</p></div>
-</div><p>.</p>
+</div>
+</div>
+
+<div id="rusta" class="tab-content"><p> <span class="priceboy">RUSTA</span></p>
+<div class="product-grid">
+      <div class="product-card">
+    <a href="https://www.rusta.com/sv-se/hem-och-inredning/stad-och-stadprodukter/tvattmedel/tvattmedel-flytande-refin-21-l-universal">
+      <img src="r1.png" alt="Tvättmedel" width="  260px" height="200px">  
+    </a>
+    <h3>Tvättmedel, flytande Refin</h3>
+    <p class="priceboy">2,1 l Universal</p>
+    <p class="pricei">49.90kr</p>
+    <p> </div>
+
+</div>
 
 
 
+
+<section>
+
+
+<p></p></section>
+
+
+
+<script>
+function showTab(tabId) {
+  const allTabs = document.querySelectorAll('.tab-content');
+  allTabs.forEach(tab => tab.classList.remove('active'));
+
+  document.getElementById(tabId).classList.add('active');
+}
+</script>
+<script>
+  const buttons = document.querySelectorAll('.tab-buttons button');
+  const tabs = document.querySelectorAll('.tab-content');
+
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+     
+      buttons.forEach(btn => btn.classList.remove('active'));
+
+      
+      button.classList.add('active');
+
+      
+      tabs.forEach(tab => tab.classList.remove('active'));
+      tabs[index].classList.add('active');
+    });
+  });
+</script>
   </main>
-
+<p>.</p>
  <div class="site-footer">
-  <p>© 2025 Babyteddi. All rights reserved. | </p>
+  <p>© 2025 Babyteddi. All rights reserved. </p>
 </div>
 </body>
 </html>
