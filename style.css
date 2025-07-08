@@ -168,8 +168,19 @@ hr.new1 {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-.product-card.blue-card {
-  border-color: #abd9ff;
+.product-card.green-card {
+  border-color: #8aff9e;
+  background-color: #ffffff;
+}
+
+.product-card.yellow-card {
+
+  border-color: rgb(255, 255, 122);
+  background-color: white;
+}
+
+.product-card.rusta-card {
+  border-color: #b8b8b8;
   background-color: #ffffff;
 }
 
@@ -261,6 +272,11 @@ hr.new1 {
   background: #f093a3; 
   border-radius: 10px;
   border: 2px solid #ffe5ee; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff979e; 
 }
 
 
