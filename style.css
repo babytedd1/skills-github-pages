@@ -190,7 +190,32 @@ hr.new1 {
    background: #ffff99; 
 }
 
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
+  .product-card {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tab-buttons button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
 ::-webkit-scrollbar {
   width: 18px;
   height: 18px;
