@@ -169,7 +169,7 @@ hr.new1 {
 }
 
 .product-card.blue-card {
-  border-color: #bd9ff;
+  border-color: #abd9ff;
   background-color: #ffffff;
 }
 
@@ -183,6 +183,13 @@ hr.new1 {
   font-weight: bold;
   color: #e60039;
 }
+.listin {
+
+  color: rgb(52, 89, 145);
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .priceboy {
   font-weight: bold;
 }
@@ -249,10 +256,6 @@ hr.new1 {
   border: 2px solid #ffe5ee; 
 }
 
-
-::-webkit-scrollbar-thumb:hover {
-  background: #ff979e; 
-}
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ff979e; 
