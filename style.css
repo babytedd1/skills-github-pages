@@ -116,7 +116,6 @@ hr.new1 {
   border-top: 1px solid pink;
 }
 
-
 .site-footer {
   width: 100%;
   background-color: #ffe0b3;  padding: 20px;
@@ -128,6 +127,7 @@ hr.new1 {
   line-height: 1;
   margin-top: 30px;
 }
+
 .site-footer a {
   color: #7a6549;          
   font-size: 14px;          
@@ -239,6 +239,7 @@ hr.new1 {
   background: #fff0ae;
   cursor: pointer;
   margin-right: 5px;
+  margin: 18px 5px 18px 5px;
   border-radius: 30%;
   transition: all 0.3s ease;
 }
