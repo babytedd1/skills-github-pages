@@ -1,365 +1,295 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
- <link rel="icon" href="03icon.png" type="image/png">
-  <title>Babyteddi World</title>
-</head>
-<body>
-  <div class="header">
-    <h1>💛 Erbjudande i vecka! 💛  </h1>     
-    <img src="03icon.png" alt ="bearicon" width="64px" height="64px">
-    <div class="flower-text">
-    <img src="01flower.png" class="icon">
-    <p>spara pengar <span class="highlight">JULI</span> 2025</p>
-    <img src="01flower.png" class="icon">
-   </div>
-  </div>
-
-  <main style="min-height: 70vh;">
-  <div class="tab-buttons">
-     <button onclick="showTab('ica')"> <span class="red-text">ICA</span></button>   
-     <button onclick="showTab('coop')"> <span class="green-text">COOP</span></button>
-     <button onclick="showTab('favo')"><span class="favo">OFTA</span></button>
-     <button onclick="showTab('l1st')"><span class="listn">LIST</span></button>
-  </div>
-
-<div id="ica" class="tab-content active"><p><span class="highlight">ICA . AKTUELLA PRISER . 7/7-13/7.</span></p>           
-    <div class="product-grid">
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/avfallsp%C3%A5se-extra-stor-40l-20p-ica/2060124">
-    <img src="i01.png" alt="bags" width="260px" height="200px"></a>
-    <h3>Avfallspåse Extra Stor 40L 20p</h3>
-    <p class="pricei">2 för 40kr</p>
-    <p class="priceboy">26.90 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/toalettpapper-24-p-milj%C3%B6m%C3%A4rkt-ica/1396068">
-    <img src="i06.png" alt="papper" width="260px" height="200px"></a>
-    <h3>Toalettpapper 24-p Miljömärkt</h3>
-    <p class="price">95,00 kr<span class="old-price"> 120,00 kr</span></p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/k%C3%B6ttf%C3%A4rspaj-240-g-familjen-dafg%C3%A5rd/1521017">
-    <img src="i07.png" alt="paj" width="260px" height="200px"></a>
-    <h3>Köttfärspaj 240 g Familjen Dafgård</h3>
-    <p class="pricei">3 för 79kr</p>
-    <p class="priceboy">33,50 kr/st</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/gr%C3%A4sfr%C3%B6-reparera-1kg-ica-garden/1465751">
-    <img src="i05.png" alt="gräsfrö" width="260px" height="200px"></a>
-    <h3>Gräsfrö Reparera 1kg ICA Garden</h3>
-    <p class="price">89,00 kr<span class="old-price">109,00 kr</span></p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/gr%C3%A4sfr%C3%B6-villa-3kg-ica-garden/1465765">
-    <img src="i08.png" alt="villa" width="260px" height="200px"></a>
-    <h3>Gräsfrö Villa 3kg ICA Garden</h3>
-    <p class="price">229,00 kr<span class="old-price">249,00 kr</span></p></div>
- 
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/golvmopp-torr-refill-18p-swiffer/2153204">
-    <img src="i04.png" alt="dryswiffer" width="260px" height="200px"></a>
-    <h3>Golvmopprefill 20-p Swiffer</h3>
-    <p class="price">49,90 kr<span class="old-price">64.90 kr</span></p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/potatissallad-cr%C3%A8me-fraiche-750g-rydbergs/1530813">
-    <img src="i09.png" alt="dryswiffer" width="260px" height="200px"></a>
-    <h3>Potatissallad Crème fraiche 750g</h3>
-    <p>0.75kg (46,53 kr/kg)</p>
-    <p class="price">34,90 kr<span class="old-price">44,95 kr</span></p></div>
-
-    <div class="row-divider"></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/handdiskmedel-skogsbris-400ml-milj%C3%B6m%C3%A4rkt-ica-skona/2014516">
-    <img src="w1.png" alt="handdiskmedel" width="260px" height="200px"></a>
-    <h3>Handdiskmedel Skogsbris 400ml</h3>
-    <p>0.4L (41,25 kr/l)</p>
-    <p class="priceboy">16,50 kr</p></div>
-
-<div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/handdiskmedel-750ml-ica-basic/2030575">
-    <img src="w2.png" alt="handdiskmedel" width="260px" height="200px"></a>
-    <h3>Handdiskmedel 750ml ICA Basic</h3>
-    <p>0.75L (18,60 kr/l)</p>
-    <p class="priceboy">13,95 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/hush%C3%A5llspapper-4-p-milj%C3%B6m%C3%A4rkt-ica-basic/1410854">
-    <img src="i13.png" alt="hushållspapper" width="260px" height="200px"></a>
-    <h3>Hushållspapper 4-p Miljömärkt</h3>
-    <p>0.611kg (35,92 kr/kg)</p>
-    <p class="priceboy">21,95 kr</p></div>
-  </div>
-</div>
-
-<div id="coop" class="tab-content"><p><span class="highlight">COOP . AKTUELLA PRISER . 7/7–13/7.</span></p>                   
-    <div class="product-grid">
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/dryck/vatten/kolsyrat-smaksatt/kolsyrat-vatten-citron-7310401000053/">
-    <img src="c1.png" alt="loka" width="280px" height="200px"></a>
-    <h3>Kolsyrat vatten Citron</h3>
-    <p class="pricei">2för 16kr</p>
-    <p>+ 2 kr pant.
-Ord. pris 12,95 kr/st.
-Ord. jfr pris 8,63 kr/lit.
-Erbj. jfr pris 5,33 kr/lit.r</p></div>
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/kott-fagel-chark/korv/chorizo/chorizo-5707196272932/">
-    <img src="c3.png" alt="chorizo" width="260px" height="200px"></a>
-    <h3>Chorizo </h3>
-    <p class="priceboy">Göl. 450g.</p>
-    <p class="pricei">2 för 69kr</p>
-    <p>Ord. pris 48,95 kr/st.
-Ord. jfr pris 108,78 kr/kg.
-Erbj. jfr pris 76,67 kr/kg.</p></div>
-
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/kott-fagel-chark/korv/ovrig-korv/cabanossy-5707196272963/">
-    <img src="c5.png" alt="Cabanossy" width="260px" height="200px"></a>
-    <h3>Cabanossy Göl.450 g</h3>
-    <p class="pricei">2 för 69kr</p>
-    <p>Ord. pris 48,95 kr/st.
-Ord. jfr pris 108,78 kr/kg.
-Erbj. jfr pris 76,67 kr/kg.</p></div>
-
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/kott-fagel-chark/kyckling-ovrig-fagel/hel-kyckling-file/kycklinglarfile-2307136100009/">
-    <img src="c4.png" alt="Cabanossy" width="260px" height="200px"></a>
-    <h3>Kycklinglårfilé</h3>
-    <p class="pricei"><span style="color: green">MEDLEMSPRIS</span> 99kr/kg 89,10kr/st</p>
-    <p>Erbj: Max 2 styck/hushåll. Ord. pris 140,40 kr/st. Ord. jfr pris 156 kr/kg. Erbj. jfr pris 99 kr/kg.</p></div>
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/mejeri-agg/smor-margarin/bordsask-smor-margarin/bregott-smor-raps-normalsaltat-7311870010970/">
-    <img src="c2.png" alt="smör" width="260px" height="200px"></a>
-    <h3>Bregott Smör & raps Normalsaltat</h3>
-    <p class="pricei"><span style="color: green">MEDLEMSPRIS</span> 45kr</p>
-    <p>Erbj: Max 2 styck/hushåll.
-Ord. pris 59,95 kr/st.
-Ord. jfr pris 119,90 kr/kg.
-Erbj. jfr pris 90 kr/kg.</p></div>
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/fardigmat-mellanmal/fardigmat/pajer/kottfarspaj-7310960027317">
-    <img src="i07.png" alt="paj" width="260px" height="200px"></a>
-    <h3>Köttfärspaj 240 g Familjen Dafgård</h3>
-    <p class="pricei"><span style="color: green">MEDLEMSPRIS</span>2för 55kr</p>
-    <p class="priceboy">36,50kr/st</p></div>
-   
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/mejeri-agg/mjolk/mellanmjolk/mellanmjolk-langre-hallbarhet-7300156593528/">
-    <img src="k1.png" alt="mjölk" width="260px" height="200px"></a>
-    <h3>Mellanmjölk Längre Hållbarhet</h3>
-    <p class="priceboy">Göl. 450g.</p>
-    <p class="priceboy">15,95 kr/st</p></div>
-  </div>
-</div>
-
-<div id="favo" class="tab-content active"><p class="pricev">Oftare</p>
-    <div class="product-grid"><div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/stilldrink-reload-1-15l-vitamin-well/2141921">
-    <img src="i11.png" alt="vitaminwell" width="260px" height="200px"></a>
-    <h3>Stilldrink Reload 1,15l</h3>
-    <p>1.15L (23,91 kr/l exkl pant)</p>
-    <p class="priceboy">27,50 kr</p></div>
-    
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/avfallsp%C3%A5se-extra-stor-40l-20p-ica/2060124">
-    <img src="i01.png" alt="bags" width="260px" height="200px"></a>
-    <h3>Avfallspåse Extra Stor 40L 20p</h3>
-    <p class="pricei">2 för 40kr</p>
-    <p class="priceboy">26.90 kr</p></div>
-  
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/p%C3%A5genlimpan-900g-p%C3%A5gen/1025144">
-    <img src="f2.png" alt="franskbröd" width="260px" height="200px"></a>
-    <h3>Pågenlimpan 900g Pågen</h3>
-    <p>0.9kg (39,94 kr/kg)</p>
-    <p class="priceboy">35,95 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/j%C3%A4ttefranska-rostbr%C3%B6d-1-1kg-p%C3%A5gen/2010293">
-    <img src="f1.png" alt="franskbröd" width="260px" height="200px"></a>
-    <h3>JätteFranska Rostbröd 1,1kg</h3>
-    <p>1.1kg (27,73 kr/kg)</p>
-    <p class="priceboy">30,50 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/milkshake-jordgubb-1-4-200ml-yalla/2101543">
-    <img src="y1.png" alt="Jordgubbshake" width="260px" height="200px">
-    </a>
-    <h3>Milkshake Jordgubb 1,4% 200ml</h3>
-    <p>0.2L (77,50 kr/l)</p>
-    <p class="priceboy">15,50 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/toalettpapper-24-p-milj%C3%B6m%C3%A4rkt-ica/1396068">
-    <img src="i06.png" alt="papper" width="260px" height="200px"></a>
-    <h3>Toalettpapper 24-p Miljömärkt</h3>
-    <p class="price">95,00 kr<span class="old-price"> 120,00 kr</span></p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/rostbiff-100g-ica/1422153">
-    <img src="y2.png" alt="Rostbiff" width="260px" height="200px"></a>
-    <h3>Rostbiff 100g ICA</h3>
-    <p>0.1kg (339,50 kr/kg)</p>
-    <p class="priceboy">33.95kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/hush%C3%A5llsost-mild-26-ca-1-1kg-arla/1431959">
-    <img src="ch1.png" alt="ost" width="260px" height="200px"></a>
-    <h3>Hushållsost mild 26% ca 1,1kg Arla</h3>
-    <p>Ca 1.1kg (135,00 kr/kg)</p>
-    <p class="priceboy">Ca 148,50 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/k%C3%B6ttf%C3%A4rspaj-240-g-familjen-dafg%C3%A5rd/1521017">
-    <img src="i07.png" alt="paj" width="260px" height="200px"></a>
-    <h3>Köttfärspaj 240 g Familjen Dafgård</h3>
-    <p class="pricei">3 för 79kr</p>
-    <p class="priceboy">33,50 kr</p></div>
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/mejeri-agg/mjolk/mellanmjolk/mellanmjolk-langre-hallbarhet-7300156593528/">
-    <img src="k1.png" alt="mjölk" width="260px" height="200px"></a>
-    <h3>Mellanmjölk Längre Hållbarhet</h3>
-    <p class="priceboy">Göl. 450g.</p>
-    <p class="priceboy">15,95 kr/st</p></div>
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/fardigmat-mellanmal/fardigmat/pajer/kottfarspaj-7310960027317">
-    <img src="i07.png" alt="paj" width="260px" height="200px"></a>
-    <h3>Köttfärspaj 240 g Familjen Dafgård</h3>
-    <p class="pricei"><span style="color: green">MEDLEMSPRIS</span>2för 55kr</p>
-    <p class="priceboy">36,50kr/st</p></div>
-
-    <div class="product-card yellow-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/tonfisk-i-solrosolja-200g-abba/1481200">
-    <img src="y4.png" alt="extra" width="260px" height="200px"></a>
-    <h3><p class="priceboy">Tonfisk</p></h3>
-    <p>i solrosolja</p>
-    <p class="priceboy">32,50 kr</p></div>
-  
-    <div class="product-card yellow-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/kattsnack-ost-180g-dreamies/2094930">
-    <img src="y8.png" alt="kattgodis" width="260px" height="200px"></a>
-    <h3>Kattsnack Ost 180g Dreamies</h3>
-    <p>0.18kg (266,39 kr/kg)</p>
-    <p class="priceboy">47,95 kr</span></p></div>
-  </div>
-  </div>
-
-<div id="l1st" class="tab-content"><p class="pricev">Inköplist</p>
-    <div class="product-grid">
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/golvmopp-torr-refill-18p-swiffer/2153204">
-    <img src="i04.png" alt="dryswiffer" width="260px" height="200px"></a>
-    <h3><p class="red-text">Swiffer 20-p</p></h3>
-    <p class="price">49,90 kr<span class="old-price">64.90 kr</span></p></div>
-  
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/rostbiff-100g-ica/1422153">
-    <img src="y2.png" alt="Rostbiff" width="260px" height="200px"></a>
-    <h3>Rostbiff 100g ICA</h3>
-    <p>0.1kg (339,50 kr/kg)</p>
-    <p class="priceboy">33.95kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/entrec%C3%B4te-skivad-200g-ica/1512842">
-    <img src="a1.png" alt="kött" width="260px" height="200px"></a>
-    <h3>Entrecôte skivad 200g ICA</h3>
-    <p>0.2kg (399,75 kr/kg)</p>
-    <p class="priceboy">ca79,95 kr</p></div>
-
-    <div class="product-card green-card">
-    <a href="https://www.coop.se/handla/varor/mejeri-agg/mjolk/mellanmjolk/mellanmjolk-langre-hallbarhet-7300156593528/">
-    <img src="k1.png" alt="mjölk" width="260px" height="200px"></a>
-    <h3>Mellanmjölk Längre Hållbarhet</h3>
-    <p class="priceboy">Göl. 450g.</p>
-    <p class="priceboy">15,95 kr/st</p></div>
-
-    <div class="product-card rusta-card">
-    <a href="https://www.rusta.com/sv-se/hem-och-inredning/stad-och-stadprodukter/tvattmedel/tvattmedel-flytande-refin-21-l-universal">
-    <img src="r1.png" alt="Tvättmedel" width="  260px" height="200px">  </a>
-    <h3>Tvättmedel, flytande</h3>
-    <p class="priceboy">RUSTA* närsomhelst!</p>
-    <p class="priceboy">49.90kr</p></div>
-
-    <div class="product-card yellow-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/chokladp%C3%A5se-lindor-raspberry-cream-137g-lindt/2134262">
-    <img src="y7.png" alt="extra" width="260px" height="200px"></a>
-    <h3><p class="red-text">Rasberry & Cream</p></h3>
-    <p>LINDOR</p>
-    <p class="priceboy"> 1st</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/j%C3%A4ttefranska-rostbr%C3%B6d-1-1kg-p%C3%A5gen/2010293">
-    <img src="f1.png" alt="franskbröd" width="260px" height="200px"></a>
-    <h3>JätteFranska Rostbröd 1,1kg</h3>
-    <p>1.1kg (27,73 kr/kg)</p>
-    <p class="priceboy">30,50 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/hush%C3%A5llspapper-4-p-milj%C3%B6m%C3%A4rkt-ica-basic/1410854">
-    <img src="i13.png" alt="hushållspapper" width="260px" height="200px"></a>
-    <h3>Hushållspapper 4-p Miljömärkt</h3>
-    <p>0.611kg (35,92 kr/kg)</p>
-    <p class="priceboy">21,95 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/handdiskmedel-skogsbris-400ml-milj%C3%B6m%C3%A4rkt-ica-skona/2014516">
-    <img src="w1.png" alt="handdiskmedel" width="260px" height="200px"></a>
-    <h3>Handdiskmedel Skogsbris 400ml</h3>
-    <p>0.4L (41,25 kr/l)</p>
-    <p class="priceboy">16,50 kr</p></div>
-
-    <div class="product-card">
-    <a href="https://handlaprivatkund.ica.se/stores/1003604/products/handdiskmedel-750ml-ica-basic/2030575">
-    <img src="w2.png" alt="handdiskmedel" width="260px" height="200px"></a>
-    <h3>Handdiskmedel 750ml ICA Basic</h3>
-    <p>0.75L (18,60 kr/l)</p>
-    <p class="priceboy">13,95 kr</p></div>
-   </div>
-  </div>
-
-<script>
-function showTab(tabId) {
-  const allTabs = document.querySelectorAll('.tab-content');
-  allTabs.forEach(tab => tab.classList.remove('active'));
-
-  document.getElementById(tabId).classList.add('active');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-</script>
-<script>
-  const buttons = document.querySelectorAll('.tab-buttons button');
-  const tabs = document.querySelectorAll('.tab-content');
 
-  buttons.forEach((button, index) => {
-    button.addEventListener('click', () => {
-     
-      buttons.forEach(btn => btn.classList.remove('active'));
 
-      
-      button.classList.add('active');
+body {
+  background-color: #fff9f9;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: #726565;
+  margin: 0px;
+}
 
-      
-      tabs.forEach(tab => tab.classList.remove('active'));
-      tabs[index].classList.add('active');
-    });
-  });
-</script>
-</main>
 
- <div class="site-footer">
-  <p>© 2025 Babyteddi. All rights reserved.</p>
- </div>
-</body>
-</html>
+h1 {
+  color: #574437;
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
+  font-size: 2.2em;
+  font-family: "Gill Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.header {
+  
+  top: 0;
+  padding: 10px 16px;
+  margin-top: 0px;
+  background: #ffdcc9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.divider {
+  border: none;
+  height: 6px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+p {
+  font-size: 16px;
+  color: #4e4d4e;
+  font-family: "Gill Sans", sans-serif;
+    margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  animation: fadeIn 2s ease-in;
+}
+
+.green-text {
+
+color: #00ad65;
+font-weight: bold;
+text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
+font-size: 25px;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.flower-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.flower-text p {
+  margin: 0;
+  font-size: 22px;
+  color: #66493c;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.icon {
+  width: 24px; 
+  height: 24px;
+}
+
+.red-text {
+  color: rgb(238, 0, 0);
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
+  font-weight: bold; 
+  font-size: 25px;
+
+}
+
+.old-price {
+  color: #555;
+  text-decoration: line-through;
+  font-size: 0.95em;
+}
+
+.highlight {
+  background: #ffff99; 
+  padding: 0.2em 0.4em;
+  border-radius: 25%;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  font-weight: bold;
+}
+
+.site-footer {
+  width: 100%;
+  background-color: #ffe0b3;  padding: 20px;
+  padding: 2px 8px;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 10px;
+  color: #7a6549;
+  line-height: 1;
+  margin-top: 30px;
+}
+
+.site-footer a {
+  color: #7a6549;          
+  font-size: 14px;          
+  text-decoration: none;    
+}
+
+.site-footer a:hover {
+  text-decoration: none;  
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: #fff;
+  border: 2px solid #ff7e85;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+  max-width: 300px;
+  position: relative;
+  transition: transform 0.2s ease;
+  margin:  10px 0 8px 1px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.row-divider {
+  border-top: 2px dashed #5a5a5a;
+  height: 0;
+  margin: 10px 0;
+  grid-column: 1 / -1;
+}
+
+.product-card.green-card {
+  border-color: #44ac55;
+  background-color: #ffffff;
+}
+
+.product-card.yellow-card {
+
+  border-color: rgb(85, 85, 85);
+  background-color: white;
+}
+
+.product-card.rusta-card {
+  border-color: #b8b8b8;
+  background-color: #ffffff;
+}
+
+.product-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.price {
+  font-weight: bold;
+  color: #e60039;
+}
+
+.listn {
+
+  font-size: 25px;
+  color:#250003;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
+}
+.favo {
+
+  color: rgb(52, 89, 145);
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
+}
+
+.priceboy {
+  font-weight: bold;
+}
+.pricev {
+  background: #d2efff; 
+  font-weight: bold;
+  margin: 30px 0 10px 0;
+}
+
+.pricei {
+  font-weight: bold;
+   color: #e60039;
+   background: #ffff99; 
+}
+
+.rusta {
+  font-size: 25px;
+    color: rgb(0, 2, 0);
+ 
+  font-weight: bold; 
+
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-buttons button {
+  padding: 10px;
+  border: none;
+  background: #fff0ae;
+  cursor: pointer;
+  margin-right: 5px;
+  margin: 18px 5px 18px 5px;
+  border-radius: 30%;
+  transition: all 0.3s ease;
+}
+
+.tab-buttons button:hover {
+  background: #ffd67f;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+  transform: scale(1.1);
+}
+
+.tab-buttons button.active {
+  background: #fff67d;
+  color: #fff;
+  font-weight: bold;
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+  height: 18px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #fff1f6; 
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #f093a3; 
+  border-radius: 10px;
+  border: 2px solid #ffe5ee; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff979e; 
+}
