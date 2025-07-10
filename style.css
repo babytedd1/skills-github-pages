@@ -58,6 +58,7 @@ p {
 
 color: #00ad65;
 font-weight: bold;
+text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
 font-size: 25px;
 }
 @keyframes fadeIn {
@@ -92,6 +93,7 @@ font-size: 25px;
 
 .red-text {
   color: rgb(238, 0, 0);
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
   font-weight: bold; 
   font-size: 25px;
 
@@ -110,10 +112,6 @@ font-size: 25px;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   font-weight: bold;
-}
-
-hr.new1 {
-  border-top: 1px solid pink;
 }
 
 .site-footer {
@@ -159,7 +157,7 @@ hr.new1 {
   max-width: 300px;
   position: relative;
   transition: transform 0.2s ease;
-  margin:  10px 0 0 1px;
+  margin:  10px 0 8px 1px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -168,14 +166,21 @@ hr.new1 {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
+.row-divider {
+  border-top: 2px dashed #5a5a5a;
+  height: 0;
+  margin: 10px 0;
+  grid-column: 1 / -1;
+}
+
 .product-card.green-card {
-  border-color: #8aff9e;
+  border-color: #44ac55;
   background-color: #ffffff;
 }
 
 .product-card.yellow-card {
 
-  border-color: rgb(255, 255, 122);
+  border-color: rgb(85, 85, 85);
   background-color: white;
 }
 
@@ -200,17 +205,25 @@ hr.new1 {
   font-size: 25px;
   color:#250003;
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
 }
 .favo {
 
   color: rgb(52, 89, 145);
   font-size: 25px;
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
 }
 
 .priceboy {
   font-weight: bold;
 }
+.pricev {
+  background: #d2efff; 
+  font-weight: bold;
+  margin: 30px 0 10px 0;
+}
+
 .pricei {
   font-weight: bold;
    color: #e60039;
