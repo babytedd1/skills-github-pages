@@ -96,7 +96,6 @@ font-size: 25px;
   text-shadow: 2px 2px 4px rgba(70, 64, 66, 0.3);
   font-weight: bold; 
   font-size: 25px;
-
 }
 
 .old-price {
@@ -131,12 +130,9 @@ font-size: 25px;
   font-size: 14px;          
   text-decoration: none;    
 }
-
 .site-footer a:hover {
   text-decoration: none;  
 }
-
-
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -198,6 +194,7 @@ font-size: 25px;
 .price {
   font-weight: bold;
   color: #e60039;
+  background: #ffff99; 
 }
 
 .listn {
