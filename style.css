@@ -175,9 +175,13 @@ font-size: 25px;
 }
 
 .product-card.yellow-card {
-
-  border-color: rgb(85, 85, 85);
-  background-color: white;
+  border: 2px solid transparent;
+  background: 
+    linear-gradient(white, rgb(255, 255, 255)), /* 本体の背景 */
+    linear-gradient(to bottom, rgb(240, 87, 81), rgb(121, 214, 59)); /* 枠のグラデ */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-radius: 20px; 
 }
 
 .product-card.rusta-card {
