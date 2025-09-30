@@ -200,7 +200,9 @@ font-size: 25px;
   color: #e60039;
   background: #ffff99; 
 }
-
+.red {
+  color: red;
+}
 .listn {
 
   font-size: 25px;
@@ -217,6 +219,7 @@ font-size: 25px;
 }
 
 .priceboy {
+  color: grey;
   font-weight: bold;
 }
 .pricev {
@@ -230,6 +233,13 @@ font-size: 25px;
    color: #e60039;
    background: #ffff99; 
 }
+
+.old-price {
+  color: grey;
+  font-weight: bold;
+  text-decoration: line-through;
+
+  }
 
 .rusta {
   font-size: 25px;
